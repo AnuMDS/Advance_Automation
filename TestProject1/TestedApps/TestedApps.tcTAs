@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" version="1400" key="{CC79E480-E742-42C8-A9EA-111C70DDE0CA}" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}">
+	<config nodeName="TestedApps" />
+	<testData />
+	<data />
+	<children>
+		<child key="{20C5F29E-8A59-4EC5-8DC8-D9D6E2381E64}">
+			<config nodeName="Advance_Startup_TS_7" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="" workFolder="" userName="" password="" domain="" />
+					<param name="Profile" parameters="" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="" workFolder="" />
+					<param name="Simple" fileName="Advance Startup TS 7.exe" filePath="C:\Program Files (x86)\Ingenta\Ingenta Commercial\QAMidSprintR3OTC\" parameters="" workFolder="" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+</Root>

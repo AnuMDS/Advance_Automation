@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{362A8EE5-675E-43A9-869D-06ECE80B0CB4}" version="14.0">
+	<children>
+		<child name="KeywordTests" key="{E611C47C-0F6D-4440-9949-342E66BE72BF}" type="Keyword Testing" typeId="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" pluginName="Keyword Testing" path="KeywordTests\KeywordTests.tcKDT" />
+		<child name="Scenarios" key="{82E8AC6B-7BD4-4A52-896F-E01146F5F379}" type="Scenarios" typeId="{146B1623-3D4E-46FF-A0E5-CC234C212913}" pluginName="Gherkin / BDD" path="Scenarios\Scenarios.tcTestCases" />
+		<child name="Script" key="{00C825EB-A91C-404D-B14F-FC428256AA08}" type="Script" typeId="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" pluginName="Script" path="Script\Script.tcScript" />
+		<child name="NameMapping" key="{DEF9457D-5844-439C-8E51-4CBB2CCDDD64}" type="Name Mapping" typeId="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" pluginName="NameMapping" path="NameMapping\NameMapping.tcNM" />
+		<child name="TestedApps" key="{CC79E480-E742-42C8-A9EA-111C70DDE0CA}" type="Tested Applications" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" pluginName="" path="TestedApps\TestedApps.tcTAs" />
+	</children>
+	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
+	<testItems key="{0881EFD0-D7F2-4D80-BEC5-CB64446D6B87}" version="14">
+		<children>
+			<testItem name="Creating Customers" key="{8C41F8F9-F5B9-4A95-9487-E51D3A4C707A}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="Creating customer linked with a company" key="{23D71E60-CDEB-4C1D-A1A1-00966C60671D}" group="False" enabled="True" testMoniker="CreateCustomerLinkedToExistingPerson|Creating customer linked with a company" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="Creating a new Company" key="{6463AA97-C1A6-4AEA-9096-EA7D8151C6E6}" group="False" enabled="True" testMoniker="CreateNewCompany|Creating a new Company" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="Creating a new person" key="{54C7DE0B-7244-4038-9E39-B6AFC9B4DC3D}" group="False" enabled="True" testMoniker="CreateNewPerson|Creating a new person" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="Creating Person linked to existing company" key="{A9E23E0F-EA7C-4C25-B5E1-7B61CF13BDAB}" group="False" enabled="True" testMoniker="CreatePersonLinkedToExistingCompany|Creating Person linked to existing company" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="1 Verifying Customer Wizard details" key="{44693C8F-B60F-4ECB-AEE0-9176D1124224}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard|1 Verifying Customer Wizard details" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="2 Verifying Company Frame details" key="{AFC21D53-624D-45A2-AE61-815AAF309A4A}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard|2 Verifying Company Frame details" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="3 Check Country field" key="{781C7C82-FEF5-4168-8D78-2DBCA0BDA6BD}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard|3 Check Country field" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="4 Verifying Country field validation" key="{37EADFB8-6B83-47F2-BC4B-3945582D700B}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard|4 Verifying Country field validation" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="5 Search and Select Country functionality" key="{1551B824-389B-46D3-B830-AB6C173F2ACD}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard|5 Search and Select Country functionality" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="7 Verifying Template field" key="{B9DCE581-0833-4ACA-87BC-5403FAF1806C}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard|7 Verifying Template field" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="13 Checking Name Type field" key="{7D9D3DFF-0791-4AA2-BBF5-A8CB6F71F141}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard|13 Checking Name Type field" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="14 Validating Name Type functionality" key="{B11C8B78-AA83-43FC-9204-AAD9D50C75FF}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard|14 Validating Name Type functionality" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="15 Verifying Name Type field" key="{B59DC0A8-3135-48A1-B63F-AA49AEEA61CE}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard|15 Verifying Name Type field" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="15 Verifying Name Type functionality" key="{0F022B47-C2AE-49A1-817B-6BC021BE05A1}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard|15 Verifying Name Type functionality" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="1617 Verifying Valid Companies and Default Company Name Type is checked" key="{0902AFAA-7BD4-456A-85AE-B230FBCD3632}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard|1617 Verifying Valid Companies and Default Company Name Type is checked" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="18 Navigating to Company Name field" key="{0641DC33-444F-4127-8B7E-113088E0A6C2}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard|18 Navigating to Company Name field" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="19 Verifying Company Name field" key="{2363EAF2-4D72-4E53-94C7-93CCEDF66CA6}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard|19 Verifying Company Name field" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="27 Validating Invalid email" key="{60017CEF-0EC1-47E2-ACE4-32CF4DD4BBEA}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard|27 Validating Invalid email" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="28 Validating Valid email" key="{718D9CD4-686F-4975-B30D-1B8C024338DD}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard|28 Validating Valid email" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="29 Validating Invalid Area code" key="{3127494B-34F5-409F-89F6-9F70DBE3B8E7}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard|29 Validating Invalid Area code" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="30 Validating Valid Area code" key="{FD3C25B1-C518-4F32-A107-DD24494CE7FB}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard|30 Validating Valid Area code" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="31 Validating Invalid Number field" key="{545255A7-B13A-40CF-A802-887E76AE46C8}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard|31 Validating Invalid Number field" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="32 Validating Valid Number field" key="{E3B11FD4-EF17-4CD2-875F-9C519AD59B42}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard|32 Validating Valid Number field" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="45 Validating Valid Floor name" key="{9A17BB8B-008C-4EFC-A3EB-BAC44A3579B9}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard|45 Validating Valid Floor name" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="46 Verifying Floor field" key="{B4B7E2D1-167B-4E19-9B85-B9E3B1069B8E}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard|46 Verifying Floor field" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="47 Validating Invalid Building name" key="{0486BD55-9384-46FC-A56A-27D7FD77D479}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard|47 Validating Invalid Building name" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="48X Validating Valid Building name" key="{6A889E7D-0920-431B-8296-F3D286D03157}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard|48X Validating Valid Building name" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="49 Verifying Building field" key="{4B9E041D-E16F-4DE6-B4CC-21DB36877376}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard|49 Verifying Building field" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="50X Validating Invalid Street name" key="{9D8EF80F-D603-48D0-A40C-758F0404CA2A}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard|50X Validating Invalid Street name" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="51 Validating valid Street name" key="{A814C785-CA3C-4419-9FFB-68A54EDE2CE0}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard|51 Validating valid Street name" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="60 Verifying valid Postcode" key="{00E9605D-DF3E-4E75-BFB4-4725DF30F5B3}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard|60 Verifying valid Postcode" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="61 Entering UK format Postcode" key="{BA780164-4315-4DA8-9801-15EC926F1BD1}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard|61 Entering UK format Postcode" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="6263 Verifying Reset button" key="{E14EAF0B-67D4-45D5-AB52-E3FABCC8F7D6}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard|6263 Verifying Reset button" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="6264 Reviewing Display Address frame" key="{97B2A8F0-15A5-46FF-A442-F1355347B335}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard|6264 Reviewing Display Address frame" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="65 Verifying Refresh button" key="{5A7E973A-4AAA-4560-8696-887F9E27F7FA}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard|65 Verifying Refresh button" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="1 Verifying CRM prefrence templates record" key="{9FBCAB60-B420-4754-89EC-E4EEDA0F22D0}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard2|1 Verifying CRM prefrence templates record" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="2 Close CRM prefrence functionality" key="{57820F12-09A0-4224-9DE1-2ED4F7CA0F0B}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard2|2 Close CRM prefrence functionality" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="3 Verifying Role Type details" key="{CEC7ED5D-E143-4CE1-AE76-897C2DAF2FC8}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard2|3 Verifying Role Type details" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="4 Valid companies and default role" key="{781F4EC4-C990-459A-A33A-72B74C1F2184}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard2|4 Valid companies and default role" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="5 Close Role type functionality" key="{49776934-D280-48DC-8BC5-C41B310F740E}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard2|5 Close Role type functionality" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="6 Verifying company name" key="{C135DD75-E471-4BD7-AB37-8BD14D12DEF1}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard2|6 Verifying company name" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="7 Verifying company name type" key="{69E2DA88-5A55-4FE7-B9A0-DC6C8039BF7B}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard2|7 Verifying company name type" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="8 Verifying reverse company name type" key="{A92168FC-3BFB-4EC5-839F-F72E3309F67C}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard2|8 Verifying reverse company name type" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="9 Verifying website type field" key="{37B8A0F4-F352-41C9-9F28-47FA5DDCE275}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard2|9 Verifying website type field" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="10 Checking website type field" key="{02AC6E04-FBA2-4652-8BC7-C5BCA5648A8E}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard2|10 Checking website type field" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="11 Enter website name to verify email field" key="{1771B374-B4A7-4C8C-9C91-1F27EA034E2C}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard2|11 Enter website name to verify email field" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="12 Validating Company name with more than hundred characters" key="{649A385D-668A-4442-9EC5-2B8F798C2F2F}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard2|12 Validating Company name with more than hundred characters" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="13 Validating Ext Number with more than ten numbers" key="{94DF3E75-F5DD-463E-B6F1-9EBDE984D0F3}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard2|13 Validating Ext Number with more than ten numbers" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="14 Verifying Ext Number by entering four digits" key="{DABC1576-5C0F-49AE-8CBB-8AAA382831F2}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard2|14 Verifying Ext Number by entering four digits" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="15 Verifying that Reset button works properly" key="{71DF8F83-8D72-44F2-BB09-574F97F0320C}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard2|15 Verifying that Reset button works properly" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="16 Verifying some frames and buttons present on Address details page" key="{3C5B47DB-6720-4C00-B511-CA5709E77EF7}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard2|16 Verifying some frames and buttons present on Address details page" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="17 Verifying some fields present on Address frame" key="{6B1ACDC8-DF2E-44A4-A448-BA97EF193D94}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard2|17 Verifying some fields present on Address frame" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="18 Clear the country code field by clicking &apos;x&apos; to the right of it" key="{ADBB30BB-9C41-4D68-8DB8-EA6200236494}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard2|18 Clear the country code field by clicking &apos;x&apos; to the right of it" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="19 Verifying that popup message has been coming or not for not entering country code field" key="{622BBAB3-0876-478F-A183-7C534CD2569F}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard2|19 Verifying that popup message has been coming or not for not entering country code field" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="20 Enter country code field to verify House No field" key="{40600911-5ABE-4170-86B2-3253EC4948BB}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard2|20 Enter country code field to verify House No field" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="21 Validating House No with more than fifty characters" key="{3A648FEC-24AD-4BCC-B5DB-99CC0A394A35}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard2|21 Validating House No with more than fifty characters" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="22 Verifying House No by entering two digits" key="{77E2F2A7-FC67-4E8F-BBA8-B26835FAE919}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard2|22 Verifying House No by entering two digits" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="23 Validating Floor No with more than fifty characters" key="{8209FF21-DB42-4244-8A91-0D5021924A56}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard2|23 Validating Floor No with more than fifty characters" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="24 Validating District field with more than fifty characters" key="{FE85D346-E5AF-40FE-8C24-F508E2E88744}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard2|24 Validating District field with more than fifty characters" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="25 Validating District field by entering valid alphabetical string" key="{A556C32F-2900-46BB-854D-976EEB267F63}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard2|25 Validating District field by entering valid alphabetical string" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="26 Reselecting the district field" key="{641E9F1F-A94F-4111-AD9F-D1820890AB85}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard2|26 Reselecting the district field" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="27 Validating Town field with more than fifty characters" key="{4112BBA8-FABB-49B3-B4B9-CD2DA86F931C}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard2|27 Validating Town field with more than fifty characters" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="28 Validating Town field by entering valid alphabetical string" key="{AE5E8230-F757-4F79-BE09-CB9DA7CA5086}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard2|28 Validating Town field by entering valid alphabetical string" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="29 Validating County field with more than hundred characters" key="{A6C8C6B7-80CA-4356-AB83-CE3237EBDA5D}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard2|29 Validating County field with more than hundred characters" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="30 Validating County field by entering valid alphabetical string" key="{09B0C540-8F52-4190-9FB2-1AED73532B34}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard2|30 Validating County field by entering valid alphabetical string" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="31 Select the manual edit checkbox to verify that the editable form is open and refresh button is disabled" key="{7DDEFA86-93D9-486E-B0F5-0EEE865F1428}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard2|31 Select the manual edit checkbox to verify that the editable form is open and refresh button is disabled" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="32 Verifying that popup message has been coming or not when we again click on manual edit checkbox" key="{F23186A8-56CD-4B1D-84A7-EF64800E04ED}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard2|32 Verifying that popup message has been coming or not when we again click on manual edit checkbox" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="33 Click on OK button" key="{CBD6DF37-9955-4F44-AAA5-4359AF33BEF9}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard2|33 Click on OK button" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="34 Verifying that whenever we enter new address in ediatable field from display address as frame that should be possible" key="{D86AAC5F-C347-4B07-AABF-887484888721}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard2|34 Verifying that whenever we enter new address in ediatable field from display address as frame that should be possible" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="35 Verifying some fields present on Address Management frame" key="{B7AD0611-15C9-44A1-B714-1EF1F37F25DD}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard2|35 Verifying some fields present on Address Management frame" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="37 Verifying that we can add an additional address for occasions where the delivery address is different from the billing address" key="{A904D4AD-D9A7-43CF-895A-34B17CE7C4A8}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard2|37 Verifying that we can add an additional address for occasions where the delivery address is different from the billing address" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="38 Verifying that All addresses must have a Type and whenever we select particular type for one address that type is not visible for second address" key="{4AE25D7F-4781-4F4A-8B9B-6C2BB72C7E78}" group="False" enabled="True" testMoniker="ValidatingCustomerWizard2|38 Verifying that All addresses must have a Type and whenever we select particular type for one address that type is not visible for second address" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="Verifying Contact Cards tab" key="{3C56586D-147B-45C3-B3F6-F891BA60F499}" group="False" enabled="True" testMoniker="VerifyCustomerContactCards|Verifying Contact Cards tab" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="Creating Product" key="{C90884DB-CF68-434C-A715-6C81F5853880}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="1 Creating new product" key="{128D6176-8C9E-4FA7-B97B-5288EB20CCF6}" group="False" enabled="True" testMoniker="CreateNewProduct|1 Creating new product" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="2 Creating new product with base product" key="{1969D624-08A1-4E52-9C52-C3187A294383}" group="False" enabled="True" testMoniker="CreateNewProduct|2 Creating new product with base product" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+			<testItem name="Order Basket" key="{01AF82AF-E799-46CB-A737-EE7D649EDC76}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="Testing Order basket UI" key="{863F1073-855A-4D03-99C4-915BD2ED05B6}" group="False" enabled="True" testMoniker="aOrderBasketUItest|Testing Order basket UI" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="1 Creating a backorder" key="{866F08A0-2290-4A5C-818E-347A1D36D8D6}" group="False" enabled="True" testMoniker="Backorder|1 Creating a backorder" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="2 Releasing Backorders" key="{27D6ABFF-0F94-493C-91CB-7721D30E6075}" group="False" enabled="True" testMoniker="Backorder|2 Releasing Backorders" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="Deleting a product from order basket" key="{7FAF692B-C606-4B1F-91CB-9284C547ABFE}" group="False" enabled="True" testMoniker="cOrderBasketDeleteLine|Deleting a product from order basket" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="Adding sundry charges to a product in order basket" key="{76A12A18-C541-43C3-A0F1-E9C22C04AB0B}" group="False" enabled="True" testMoniker="dAddSundryChargeToOrderLine|Adding sundry charges to a product in order basket" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="DataCreation" key="{0F52F339-F502-4FCD-A4B6-25EC190B4460}" group="False" enabled="True" testMoniker="DataCreation|*" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="Adding promotions and discounts to order line in order basket" key="{30465341-6FA9-4589-B725-8DAF93EE3A9C}" group="False" enabled="True" testMoniker="hOrderLinePromotions|Adding promotions and discounts to order line in order basket" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="Editing sundry charges to a product in order basket" key="{75104067-216F-45BF-AD36-BC4287FAD1CD}" group="False" enabled="True" testMoniker="eEditSundryChargeToOrderLine|Editing sundry charges to a product in order basket" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="Changing the release priority to immediate" key="{6F2FC20C-1F11-47E2-BAEC-DBDBF2D6EA10}" group="False" enabled="True" testMoniker="ImmediateInvoice|Changing the release priority to immediate" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="Verifying Checkout tab" key="{654AC8C6-9037-44DE-B974-708AE9C15249}" group="False" enabled="True" testMoniker="iOrderBasketCheckOut|Verifying Checkout tab" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="Creating new gratis product" key="{E25FBAB4-D41D-42A8-ADE5-CD517CB26FB3}" group="False" enabled="True" testMoniker="jCreateGratisProduct|Creating new gratis product" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="Transaction process with multiple products to place order" key="{E25DEE7B-EF30-45A1-A01B-093CB1E9128B}" group="False" enabled="True" testMoniker="nOrderWithMultipleProducts |Transaction process with multiple products to place order" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="Verifying Backorder to generate advice note under Documents window" key="{E3ED1776-9DA1-49B2-BBC0-41A6BFAECAC0}" group="False" enabled="True" testMoniker="OrderBasket_Backorder|Verifying Backorder to generate advice note under Documents window" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="Verifying Order with one product in basket" key="{84BA0868-9B16-41D5-8F0B-8389127376C6}" group="False" enabled="True" testMoniker="OrderBasket_Order with one product|Verifying Order with one product in basket" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="Verifying Promotions code to generate Invoice note under Documents window" key="{8FC3B851-73B4-41E7-A343-A0C87E28907A}" group="False" enabled="True" testMoniker="OrderBasket_Promotions&amp;Orders|Verifying Promotions code to generate Invoice note under Documents window" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="Verifying Order process with Subscription Product" key="{8A4798AB-8F84-4373-92C5-3B714DC918E0}" group="False" enabled="True" testMoniker="OrderBasket_Subscription|Verifying Order process with Subscription Product" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="Testing order process with product having Inventory from Components and Price from Header" key="{CE72AF34-A08A-4449-B475-ECC6F140CFAC}" group="False" enabled="True" testMoniker="OrderBasketInventoryComponentsPriceHeader|Testing order process with product having Inventory from Components and Price from Header" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="Verifying Brown Pencil and Green Circle icons from the action buttons" key="{CC61FBE8-5055-4FCD-B5BD-2C8D407AC5E5}" group="False" enabled="True" testMoniker="OrderBasket_EditLine|Verifying Brown Pencil and Green Circle icons from the action buttons" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+					<testItem name="Testing order process when product is Not Yet Published" key="{A73543B8-BC44-4B2F-AC6A-4FA05465A427}" group="False" enabled="True" testMoniker="OrderBasketNYPInventory|Testing order process when product is Not Yet Published" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
+		</children>
+	</testItems>
+	<variables key="{AFBA6E5B-2E6F-4D55-BC89-7A8855812962}">
+		<data Version="4">
+			<Items>
+				<Variable Name="Password" Type="Password" Local="False">
+					<DefValue StrValue="3800390036003100390033004400310046003400440038003800420046003400390034003900420043003700390031003300410031003900310038003100390041003700410039004400300046003500" />
+				</Variable>
+				<Variable Name="number" Type="Integer" Local="False">
+					<DefValue IntValue="98177" />
+				</Variable>
+				<Variable Name="POInt" Type="Integer" Local="True" Descr="Integer for PO Ref">
+					<DefValue IntValue="0" />
+				</Variable>
+				<Variable Name="PORef" Type="String" Local="True" Descr="PO Ref">
+					<DefValue />
+				</Variable>
+				<Variable Name="inventoryLocation" Type="String" Local="True">
+					<DefValue />
+				</Variable>
+				<Variable Name="qtyLoose" Type="Integer" Local="True">
+					<DefValue IntValue="0" />
+				</Variable>
+				<Variable Name="AdminPassword" Type="Password" Local="False">
+					<DefValue StrValue="3800390036003100310033004400310046003400440038003800420046003400390034003900420043003700390031003300410035003900360042003100380038003600450037004400360037004200" />
+				</Variable>
+			</Items>
+		</data>
+	</variables>
+	<settings key="{2BF70ED0-DD1D-4DD9-87E8-33E200182437}">
+		<settingsVersion value="14.71" />
+		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Use all processes" />
+				<row val0="Use only tested applications" />
+				<row val0="Use only selected processes" />
+				<row val0="Ignore selected processes" />
+				<row val0="Ignore all processes" />
+			</data>
+		</setting>
+		<setting name="ApplicationHangingProcessList" type="6" rowIndex="-1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="ApplicationHangingTimeout" type="2" value="30000" />
+		<setting name="AzureDevOps_CollectionID" type="5" value="" />
+		<setting name="AzureDevOps_ProjectID" type="5" value="" />
+		<setting name="AzureDevOps_ServerName" type="5" value="" />
+		<setting name="AzureDevOps_TeamProject" type="5" value="" />
+		<setting name="AzureDevOps_TeamProjectCollection" type="5" value="" />
+		<setting name="AzureDevOps_URL" type="5" value="" />
+		<setting name="CLRBridge_PreferredApartmentModel" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Does not matter" />
+				<row val0="Single-threaded apartment" />
+				<row val0="Multi-threaded apartment" />
+			</data>
+		</setting>
+		<setting name="CLRBridge_PreferredArchitecture" type="6" rowIndex="1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="The same as the operating system" />
+				<row val0="32-bit" />
+				<row val0="64-bit" />
+			</data>
+		</setting>
+		<setting name="CLRBridge_SelectedComponents" type="6" rowIndex="-1" colIndex="1">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="1" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="CountProcessesOfAllUsers" type="1" value="True" />
+		<setting name="DbgServices_Active" type="1" value="True" />
+		<setting name="DbgServices_DepthShown" type="2" value="10" />
+		<setting name="DbgServices_EnableEvents" type="1" value="True" />
+		<setting name="DbgServices_Priority" type="6" rowIndex="3" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="pmLowest" />
+				<row val0="pmLower" />
+				<row val0="pmNormal" />
+				<row val0="pmHigher" />
+				<row val0="pmHighest" />
+			</data>
+		</setting>
+		<setting name="DbgServices_UseExtendedDebugger" type="1" value="True" />
+		<setting name="DraggingDelay" type="2" value="5" />
+		<setting name="General_CurrentImageFormat" type="5" value="126_0_0_0_97_113_115_111_1_0_0_0_4_0_0_0_114_0_111_0_111_0_116_0_1_0_0_0_9_0_0_0_102_0_111_0_114_0_109_0_97_0_116_0_107_0_101_0_121_0_1_0_0_0_38_0_0_0_123_0_66_0_65_0_55_0_52_0_53_0_49_0_54_0_57_0_45_0_70_0_51_0_52_0_68_0_45_0_52_0_55_0_49_0_48_0_45_0_66_0_51_0_55_0_70_0_45_0_68_0_53_0_69_0_70_0_69_0_56_0_65_0_53_0_49_0_51_0_51_0_57_0_125_0_1_0_0_0_16_0_0_0_112_0_110_0_103_0_99_0_111_0_110_0_102_0_105_0_103_0_117_0_114_0_97_0_116_0_105_0_111_0_110_0_2_0_0_0_16_0_0_0_99_0_111_0_109_0_112_0_114_0_101_0_115_0_115_0_105_0_111_0_110_0_108_0_101_0_118_0_101_0_108_0_0_0_0_0_4_0_0_0_10_0_0_0_105_0_110_0_116_0_101_0_114_0_108_0_97_0_99_0_101_0_100_0_5_0_0_0_0_0_0_0_0_0_" />
+		<setting name="General_DisableDWMBeforeCapturingImage" type="1" value="True" />
+		<setting name="General_ImageFormat" type="5" value="Format: PNG; Compression level: 4" />
+		<setting name="General_ObjectTreeModel" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Tree" />
+				<row val0="Flat" />
+			</data>
+		</setting>
+		<setting name="General_ProjectLogLocation" type="5" value="Log" />
+		<setting name="General_UnitsEncoding" type="6" rowIndex="1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="UTF-16" />
+				<row val0="UTF-8" />
+				<row val0="ANSI" />
+				<row val0="Auto" />
+			</data>
+		</setting>
+		<setting name="Gherkin_ExamplesAreTestCases" type="1" value="False" />
+		<setting name="HipTest_ProjectID" type="2" value="-1" />
+		<setting name="HipTest_ProjectName" type="5" value="The current project is not bound to HipTest." />
+		<setting name="HipTest_SaveResults" type="1" value="True" />
+		<setting name="HipTest_SynchronizeBeforeRun" type="1" value="True" />
+		<setting name="HipTest_SynchronizeOnOpening" type="1" value="True" />
+		<setting name="HipTest_SynchronizeTestRun" type="1" value="False" />
+		<setting name="HipTest_TestRunID" type="5" value="" />
+		<setting name="HipTest_TestRunName" type="5" value="[Test run created last]" />
+		<setting name="JavaBridge_Classes" type="6" rowIndex="-1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="JavaBridge_ClassPaths" type="6" rowIndex="-1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="JavaFXOpenApp_DoNotRecognizeJavaFXStageAsAWTComponent" type="1" value="True" />
+		<setting name="JavaFXOpenApp_ExposedCustomNodes" type="6" rowIndex="-1" colIndex="2">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="JavaFXOpenApp_NodeByClassNameFilters" type="6" rowIndex="8" colIndex="2">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="1" enabled="True" />
+			</columns>
+			<data>
+				<row val0="False" val1="*" val2="False" />
+				<row val0="True" val1="javafx.scene.SubScene" val2="True" />
+				<row val0="True" val1="javafx.scene.control.Control" val2="True" />
+				<row val0="True" val1="javafx.scene.web.WebView" val2="False" />
+				<row val0="False" val1="javafx.scene.canvas.Canvas" val2="True" />
+				<row val0="False" val1="javafx.scene.image.ImageView" val2="True" />
+				<row val0="False" val1="javafx.scene.media.MediaView" val2="True" />
+				<row val0="True" val1="com.sun.javafx.scene.control.skin.ContextMenuContent$MenuItemContainer" val2="True" />
+				<row val0="True" val1="com.sun.javafx.scene.control.ContextMenuContent$MenuItemContainer" val2="True" />
+			</data>
+		</setting>
+		<setting name="JavaOpenApp_DoNotRecognizeChildSWTAsParent" type="1" value="False" />
+		<setting name="KeyPressingDelay" type="2" value="0" />
+		<setting name="MouseMovementDelay" type="2" value="0" />
+		<setting name="ObjectMapping_Objects" type="6" rowIndex="1" colIndex="3">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data>
+				<row val0="WindowsForms10.Window.8.app.0.73673b_r9_ad1" val1="{CC40A511-13AD-11D6-A1B1-0050DA82B17A}" val2="4" val3="0" />
+				<row val0="WindowsForms10.tooltips_class32.app.0.73673b_r9_ad1" val1="{BF35DDFF-53B0-4961-AEBF-84EB92393001}" val2="4" val3="0" />
+			</data>
+		</setting>
+		<setting name="OpenApps_ActivateSystemProcesses" type="1" value="False" />
+		<setting name="OpenApps_DbgAgent_AdvancedExceptionHandling" type="1" value="True" />
+		<setting name="OpenApps_DbgAgent_CombineClassDefinitions" type="1" value="False" />
+		<setting name="OpenApps_DbgAgent_EnableDebugAgent" type="1" value="True" />
+		<setting name="OpenApps_DbgAgent_StringLengthLimit" type="2" value="1024" />
+		<setting name="OpenApps_DbgAgent_UseStaticLibs" type="1" value="True" />
+		<setting name="OpenApps_EnableMultipleNamesForObjects" type="1" value="False" />
+		<setting name="OpenApps_MethodInvokeTimeout" type="2" value="3000" />
+		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="True" val1="*" />
+				<row val0="True" val1="MsoCommandBar*" />
+				<row val0="True" val1="_Ww*" />
+				<row val0="True" val1="OpusApp" />
+				<row val0="True" val1="Vfp*" />
+				<row val0="True" val1="bosa_sdm_Microsoft Word *" />
+				<row val0="False" val1="Internet Explorer_Server" />
+				<row val0="True" val1="XTPToolBar" />
+				<row val0="True" val1="XTPDockingPaneTabbedContainer" />
+				<row val0="True" val1="XTPTaskPanel" />
+				<row val0="True" val1="XTPReport" />
+				<row val0="True" val1="XTPPopupBar" />
+			</data>
+		</setting>
+		<setting name="OpenApps_MSAA_TreeModel" type="1" value="False" />
+		<setting name="OpenApps_PriorityOfObjects" type="6" rowIndex="9" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="NativeVBObject" />
+				<row val0="NativeDelphiObject" />
+				<row val0="NativeTextObject" />
+				<row val0="NativeJavaObject" />
+				<row val0="NativeClrObject" />
+				<row val0="NativeCPPObject" />
+				<row val0="NativeJavaFXObject" />
+				<row val0="NativeQtObject" />
+				<row val0="NativeMSAA" />
+				<row val0="NativeUIAObject" />
+			</data>
+		</setting>
+		<setting name="OpenApps_ProcessFilter_ProcessFilterMode" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Use all processes" />
+				<row val0="Use only tested applications" />
+				<row val0="Use only selected processes" />
+				<row val0="Ignore selected processes" />
+			</data>
+		</setting>
+		<setting name="OpenApps_ProcessFilter_ProcessList" type="6" rowIndex="-1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="OpenApps_UIA_ListOfAcceptedWindows" type="6" rowIndex="2" colIndex="1">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="False" val1="*" />
+				<row val0="True" val1="DirectUIHWND" />
+				<row val0="True" val1="Windows.UI.Core.CoreWindow" />
+			</data>
+		</setting>
+		<setting name="OpenApps_UseNativeObjectNames" type="1" value="True" />
+		<setting name="OpenApps_WPF_CompositeControls" type="6" rowIndex="-1" colIndex="2">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="OpenApps_WPF_ItemsTemplates" type="6" rowIndex="-1" colIndex="2">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="OpenApps_WPF_SimplifiedWPFObjectTree" type="1" value="False" />
+		<setting name="PerformanceCounters_List" type="6" rowIndex="-1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="2" enabled="True" />
+				<column type="5" enabled="True" />
+				<column type="1" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="Playback_ErrHandling_OnError" type="6" rowIndex="1" colIndex="1">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Continue running" val1="0" />
+				<row val0="Stop project" val1="1" />
+				<row val0="Stop current item" val1="2" />
+				<row val0="Stop and rerun current item" val1="4" />
+			</data>
+		</setting>
+		<setting name="Playback_ErrHandling_OnObjectRecognitionError" type="6" rowIndex="1" colIndex="1">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Continue running" val1="0" />
+				<row val0="Stop project" val1="1" />
+				<row val0="Stop current item" val1="2" />
+			</data>
+		</setting>
+		<setting name="Playback_ErrHandling_OnWarning" type="6" rowIndex="0" colIndex="1">
+			<columns>
+				<column type="5" enabled="True" />
+				<column type="2" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Continue running" val1="0" />
+				<row val0="Stop project" val1="1" />
+				<row val0="Stop current item" val1="2" />
+			</data>
+		</setting>
+		<setting name="Playback_ErrHandling_ShowErrorDialog" type="1" value="True" />
+		<setting name="Playback_Log_AutosaveInterval" type="2" value="0" />
+		<setting name="Playback_Log_EventCount" type="2" value="0" />
+		<setting name="Playback_Log_PostImageOnError" type="1" value="True" />
+		<setting name="Playback_ObjectSearchStrategy" type="6" rowIndex="1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Depth-first" />
+				<row val0="Breadth-first" />
+			</data>
+		</setting>
+		<setting name="Playback_OverlappingWindow_IgnoreOverlappingWindow" type="1" value="True" />
+		<setting name="Playback_Runtime_AutoWaitTimeout" type="2" value="10000" />
+		<setting name="Playback_Runtime_DelayBetweenEvents" type="2" value="1000" />
+		<setting name="Playback_Runtime_DisableMouse" type="1" value="False" />
+		<setting name="Playback_Runtime_MinimizeBeforePlayback" type="1" value="True" />
+		<setting name="Playback_Runtime_UseCaseSensitiveParameters" type="1" value="False" />
+		<setting name="Playback_StopOnError" type="1" value="True" />
+		<setting name="Playback_StopOnObjectRecognitionError" type="1" value="True" />
+		<setting name="Playback_StopOnWarning" type="1" value="False" />
+		<setting name="Playback_TestItemMaxReRunCount" type="2" value="1" />
+		<setting name="Playback_UnexpectedWndHandling_ClickOnFocusedControl" type="1" value="True" />
+		<setting name="Playback_UnexpectedWndHandling_IgnoreUnexpectedWindow" type="1" value="True" />
+		<setting name="Playback_UnexpectedWndHandling_PressEnter" type="1" value="True" />
+		<setting name="Playback_UnexpectedWndHandling_PressEsc" type="1" value="True" />
+		<setting name="Playback_UnexpectedWndHandling_SendCloseCommand" type="1" value="True" />
+		<setting name="Playback_UnexpectedWndHandling_StopExecution" type="1" value="False" />
+		<setting name="Recording_TestedAppsOnly" type="1" value="False" />
+		<setting name="RecreateActiveXObjects" type="1" value="False" />
+		<setting name="TextRecognizer_AcceptedProcesses" type="6" rowIndex="-1" colIndex="1">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data />
+		</setting>
+		<setting name="TextRecognizer_AcceptedWindows" type="6" rowIndex="1" colIndex="1">
+			<columns>
+				<column type="1" enabled="True" />
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="True" val1="WindowsForms10.Window.8.app.0.73673b_r9_ad1" />
+				<row val0="False" val1="" />
+				<row val0="False" val1="" />
+				<row val0="False" val1="" />
+			</data>
+		</setting>
+		<setting name="Visualizer_AutoUpdate" type="1" value="False" />
+		<setting name="Visualizer_AutoUpdateMode" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Update existing frames and capture new frames, if needed" />
+				<row val0="Update existing frames only" />
+			</data>
+		</setting>
+		<setting name="Visualizer_BindToSCC" type="1" value="True" />
+		<setting name="Visualizer_CaptureStyle" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Top-level parent" />
+				<row val0="Desktop" />
+			</data>
+		</setting>
+		<setting name="Visualizer_DeleteAll" type="1" value="True" />
+		<setting name="Visualizer_PlaybackCaptureProperties" type="1" value="False" />
+		<setting name="Visualizer_PlaybackCollectMode" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Off" />
+				<row val0="Capture images" />
+			</data>
+		</setting>
+		<setting name="Visualizer_RecordingCaptureProperties" type="1" value="False" />
+		<setting name="Visualizer_RecordingCollectMode" type="6" rowIndex="0" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Off" />
+				<row val0="Capture images" />
+			</data>
+		</setting>
+		<setting name="Visualizer_UseDuringPlayback" type="1" value="True" />
+		<setting name="Visualizer_UseDuringRecording" type="1" value="True" />
+		<setting name="ZFJ_Cycle" type="5" value="" />
+		<setting name="ZFJ_ExecutionStatus_Failed" type="5" value="FAIL" />
+		<setting name="ZFJ_ExecutionStatus_Passed" type="5" value="PASS" />
+		<setting name="ZFJ_ExecutionStatus_Wip" type="5" value="WIP" />
+		<setting name="ZFJ_ExecutionStepStatus_Unexecuted" type="5" value="UNEXECUTED" />
+		<setting name="ZFJ_InstanceType" type="6" rowIndex="1" colIndex="0">
+			<columns>
+				<column type="5" enabled="True" />
+			</columns>
+			<data>
+				<row val0="Zephyr for Jira Server" />
+				<row val0="Zephyr for Jira Cloud" />
+			</data>
+		</setting>
+		<setting name="ZFJ_JiraLogin" type="5" value="" />
+		<setting name="ZFJ_JiraPassword" type="5" value="" />
+		<setting name="ZFJ_JiraProject" type="5" value="" />
+		<setting name="ZFJ_JiraUrl" type="5" value="" />
+		<setting name="ZFJ_TestIssueTypeName" type="5" value="Test" />
+		<setting name="ZFJ_Version" type="5" value="" />
+		<setting name="ZFJ_ZephyrAccessKey" type="5" value="" />
+		<setting name="ZFJ_ZephyrSecretKey" type="5" value="" />
+	</settings>
+	<analysis key="{68686685-7E81-462D-BECA-A172DA1F44F3}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+	<issueTracking key="{009D3DDF-E8FA-4E02-99CB-FB06ACF04B79}">
+		<Templates>
+			<Template Id="{1EB17ADF-E4EB-404D-97DC-AD758A1E8C1D}" ConnectionId="{00000000-0000-0000-0000-000000000000}" Description="This template is used by TestComplete&apos;s Log subsystem to post test results to an issue-tracking system. You can also use it at your desire." Name="CreateWorkItem" IsSystem="True" ItemTypeName="" ProjectName="" IsEditing="False" ItemId="">
+				<Fields>
+					<Field ItemId="{6E49EB85-B6A0-4784-BAC9-F9B84246C152}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Subject" />
+					<Field ItemId="{85076370-926F-41FA-92D0-678D6CB207C3}" AliasIsRequired="True" DBFieldNameIsRequired="False" Value="" DBFieldName="" Alias="Description" />
+				</Fields>
+			</Template>
+		</Templates>
+	</issueTracking>
+</Root>

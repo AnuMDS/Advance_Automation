@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="Basic" key="{D449B06D-75C9-4436-AB12-11E70D946AA8}" path="Basic.js" />
+		<child name="Promotions" key="{EB7B55A0-0A68-44B1-982F-FF362181B8F9}" path="Promotions.js" />
+		<child name="CreatingCustomers" key="{59086609-5180-41E1-866E-66977651966E}" path="CreatingCustomers.js" />
+		<child name="OrderBasket" key="{10BD6DF1-C427-4182-A99E-9E5DD646087F}" path="OrderBasket.js" />
+		<child name="Regression" key="{7F8C63CB-B3F3-4203-83E7-AFC563A24540}" path="Regression.js" />
+		<child name="Pricing" key="{285C46C5-810D-49F9-B4A7-7CBFCF393091}" path="Pricing.js" />
+		<child name="TestingDefaultDashboards" key="{309BACC5-2001-4A17-9D83-D7D97120AAEC}" path="TestingDefaultDashboards.js" />
+		<child name="Inventory" key="{7FFE2854-BD3B-4662-B187-359E8BB77FF2}" path="Inventory.js" />
+		<child name="DataCreation" key="{1F7E54FF-0304-48A1-B2DE-5FD0C92D9FB7}" path="DataCreation.js" />
+		<child name="FreightForwarder" key="{A7A82E95-7D2E-48F5-81A0-4C235D2A5E10}" path="FreightForwarder.js" />
+		<child name="StandingOrders" key="{367A0BC9-F966-44AA-B4A7-BF99922A6421}" path="StandingOrders.js" />
+		<child name="StepDefinition_TestUIElements" key="{9474014C-7EDC-475B-AA03-D3DDAB32533A}" path="StepDefinition_TestUIElements.sj" />
+		<child name="CreatingProduct" key="{8E252F88-C9D3-4D05-8B5F-D2AB6F0340BC}" path="CreatingProduct.js" />
+		<child name="JIRA" key="{B8D2BDFA-FC4E-433D-8C30-3DA69921FC07}" path="JIRA.js" />
+		<child name="AccountsReceivables" key="{A64F6212-C221-4A50-BD5D-C83727523B54}" path="AccountsReceivables.js" />
+	</children>
+</Root>

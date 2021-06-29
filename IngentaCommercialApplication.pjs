@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.0" key="{6E2BC6E8-AB33-4921-81D4-0EA572F286AE}">
+	<children>
+		<child name="QAMidsprintR3OTC" key="{56081C33-32E0-4455-B2E9-9D2E77CF3BE1}" path="TestProject1\QAMidsprintR3OTC.mds" />
+	</children>
+	<testItems key="{70874436-87DB-4DB2-B91A-2B49436968B0}">
+		<children>
+			<testItem key="{56081C33-32E0-4455-B2E9-9D2E77CF3BE1}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{0954EF2B-694A-4BA4-8CF8-624D06BC7E48}" />
+	<analysis key="{A6991EAE-0394-4A53-B2AB-E0304F9E6F8C}" />
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+		<data />
+	</scc>
+	<extender key="{1A3FC97E-9A66-4716-B166-35D10B4146E0}">
+		<CrossBrowserTesting Enable="True" />
+	</extender>
+</Root>

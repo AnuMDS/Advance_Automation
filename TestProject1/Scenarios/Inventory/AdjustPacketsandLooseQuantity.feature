@@ -1,0 +1,37 @@
+﻿Feature: AdjustPacketsandLooseQuantity
+
+#This feature file contains automated manual tests of RAVAUT-770 on Jira
+#Select product of type - Books
+@InventoryManagement
+ Scenario: Updating inventory
+  Given I am logged in Ingenta Commercial Application
+  When I click on Inventory
+  And I verify the product "Amazing Jake and the Leviathan" to Goods In
+  And I click on Goods In
+  And I select a Site/Warehouse "Watford/Warehouse A" 
+  And I select a before date "16/01/2020" from Received Date
+  And I enter a message "customRef" in Reference
+  And I click on Next 
+  And I select the product in Received section
+  And I select the Miscellaneous Goods In checkbox
+  And I click Yes button to pop up message 
+  And I enter Size 20
+  And I enter number of packets to adjust inventory balance 5
+  And I enter number of loose packets 10
+  And I enter Unit Weight 0.250 
+  And I enter a message in the Comments "adjust quantity"
+  And I click on Add Button from Inventory goodsIn
+  And I click on Ok button for message stating Inventory exists elsewhere in a different packet size
+  And I click on Next 
+  And I click on Forward from the node tree view
+  And I select the product to adjust inventory balance 
+  And I click on Inventory Adjustment button
+  And I select Adjust Packets/Loose Quantities checkbox
+  And I enter packets
+  And I enter Qty Loose  
+  And I click on Apply button
+  Then message should pop-up with Balance, Size, Packets, Loose adjusted successfully
+  And I click Ok button for message stating Inventory adjusted successfully
+  And I click on Finish button for Inventory Adjustment
+  And I click on Finish button to close Goods In wizard
+
